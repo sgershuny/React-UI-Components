@@ -1,0 +1,10 @@
+.calcDisplay{
+    border: 1px solid gray;
+    width: 398px;
+    height: 100px;
+    display: flex;
+    font-size: 80px;
+    color: white;
+    background-color: black;
+    justify-content: flex-end;
+}

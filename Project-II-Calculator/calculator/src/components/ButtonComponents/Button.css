@@ -1,0 +1,47 @@
+button {
+    width: 100px;
+    height:100px;
+    border: 1px solid gray;
+    font-size: 35px;
+    font-weight: bold;
+    background: #a0001e;
+
+}
+
+.Numbers-container{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width:300px;
+}
+
+.Numbers-container .number0 button{
+    width:300px
+}
+
+.Numbers-container button{
+    background-color: white;
+}
+
+.bottomComponents{
+    display: flex;
+    flex-direction: row;
+}
+
+.ActionButton div button{
+   background-color: red;
+}
+
+.symbolX button{
+    font-size:25px;
+}
+
+.ActionsTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.symbolclear button{
+    width:300px;
+    background-color: white;
+}

@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    width:676px;
+}
+
+.headerContainer p{
+    font-size: 0.85rem;
+    margin-top: 0px;
+}
+
+.headerContent{
+    margin-left:1.25rem;
+}
+
+.headerContainer img{
+    height: 60px;
+    margin-top: 30px;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.title h1{
+    font-size: 1rem;
+    font-weight: 550;
+    margin-bottom: 0px;
+
+}
+
+.title h2{
+    font-size:0.85rem;
+    margin-left:2%;
+    font-weight: lighter;
+    color:lightslategrey;
+    margin-bottom: 0px;
+}
